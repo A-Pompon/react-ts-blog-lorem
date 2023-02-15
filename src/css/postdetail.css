@@ -1,0 +1,29 @@
+.postdetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 3rem;
+}
+
+p {
+    color: white;
+}
+
+.button {
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.button:hover {
+    color: black;
+    border: solid 1px black;
+}
+
+.button:active {
+    color: rgb(195, 195, 195);
+    border: solid 1px rgb(195, 195, 195);
+}
